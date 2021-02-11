@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-position: right;
+    background-color: #6699ff;
+    color: white;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    font-size: larger;
+    background-color: #0033cc;
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a:link{
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color: lightgray;
+}
+
+a:active{
+    color:white;
+}
+
+#cpu, #gpu, #mem, #mommyboard, #psu{
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: larger;
+    background-color: #cc99ff;
+    display: flex;
+}
+
+#storage{
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: larger;
+    background-color: #cc99ff;
+}
+
+#header{
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+
+#cpu img {
+    width:15rem;
+    height:15rem;
+    border-radius: 1rem;
+}
+
+#gpu img{
+    width:15rem;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* height:15rem; */
+    border-radius: 1rem;
+    transform: rotate(90deg);
+}
+#mem img{
+    width:25rem;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* height:15rem; */
+    border-radius: 1rem;
+}
+#mommyboard img{
+    width:25rem;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* height:15rem; */
+    border-radius: 1rem;
+}
+#psu img{
+    width:25rem;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* height:15rem; */
+    border-radius: 1rem;
+}
+
+#hd-img{
+    display: flex;
+}
+
+#storage img{
+    width: 15rem;
+    border-radius: 1rem;
+
+}
+
+footer{
+    font-size: larger;
+    position: fixed;
+    bottom: 0rem;
+}
